@@ -9,3 +9,106 @@ img{
     display: block;
     max-width: 100% ;
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    background: #f5f5f5;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  header nav ul li {
+    margin: 0;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+    color: #0073e6;
+  }
+  
+  .btn {
+    background: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: #005bb5;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: #eef6ff;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero span {
+    color: #0073e6;
+  }
+  
+  .hero button {
+    margin-top: 20px;
+  }
+  
+  /* Clients Section */
+  .clients {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .clients h3 {
+    font-size: 28px;
+  }
+  
+  .clients .logos img {
+    max-width: 100px;
+    margin: 0 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
