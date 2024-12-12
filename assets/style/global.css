@@ -172,6 +172,12 @@ body {
   
   header nav ul li {
     margin: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    max-width: 100% ;
+}
   }
   
   header nav ul li a {
