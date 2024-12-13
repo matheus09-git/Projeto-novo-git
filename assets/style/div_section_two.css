@@ -1,21 +1,37 @@
-#div_sessao{
-    width: 100%;
-    border: 4px solid red;
-}
+    #div_sessao{
+        width: 90%;
+        height: 30vh;
+        margin-top: 5%;
+    }
 
-.div_sessao_principal{
-    width: 100%;
-    border: 4px solid yellow;
-    display: flex;
-    justify-content: space-around;
-}
+    .div_sessao_principal{
+        display: flex;
+    }
 
-.image_div{
-    width: 200%;
-    border: 4px solid blue;
-}
+    .image_div{
+        height: 60%;
+    }
+    
+    .div_sessao_textos{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
 
-.div_sessao_textos h1{
-    font-size: 1.4rem;
-}
+    .div_sessao_textos h1{
+        font-size: 2.3rem
+    }
 
+    .div_sessao_textos p{
+        font-size: 1.3rem;
+    }
+
+    .div_sessao_textos button{
+        width: 10%;
+        height: 40px;
+        background-color: #4CAF4F;
+        color: white;
+        font-size: 1.1rem;
+        border: none;
+
+    }

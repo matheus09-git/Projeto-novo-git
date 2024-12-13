@@ -19,13 +19,22 @@
     flex-direction: column;
     justify-content: center;
 }
+.div_textos h1{
+    font-size: 3.0rem;
+}
+
+.div_textos h2{
+    font-size: 2.8rem;
+}
 
 .div_images{
-    width: 50%; 
+    margin-top: 50px;
+    width: 35%;
+    gap: 30px; 
+    height: 30vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    
 }   
 
 .imagem{
@@ -34,11 +43,11 @@
 }
 
 .imagem h1{
-    font-size: 1.1rem;
+    font-size: 2.0rem;
 }
 
 .imagem p{
-    font-size: 0.7rem;
+    font-size: 1.2rem;
 }
 
 
