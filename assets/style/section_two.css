@@ -10,6 +10,7 @@
 
 .section_tow_principal{
     display: flex;
+    justify-content: center;
     height: 40vh;
 }
 
