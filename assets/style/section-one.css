@@ -9,24 +9,23 @@
 }
 
 #container_one {
-    border: 4px solid red;
     text-align: center;
 }
 
 #container_one h2 {
     font-size: 36px;
     font-weight: 550;
+    color: #4D4D4D;
 }
 
 #container_one p {
     font-size: 16px;
     font-weight: 350;
-    color: grey;
+    color: #717171;
     margin-top: 5.57px;  
 }
 
 #container_two {
-    border: 4px solid green;
     height: 300px;
     display: flex;
     margin-top: 20px;
@@ -56,11 +55,13 @@
 .img_one h3 {
     font-size: 28px;
     margin-top: 16px;
+    color: #4D4D4D;
 }
 
 .img_one p {
     font-size: 14px;
     margin-top: 8px;
+    color: #717171;
 }
 
 .img_two {
@@ -82,11 +83,13 @@
 .img_two h3 {
     font-size: 28px;
     margin-top: 16px;
+    color: #4D4D4D;
 }
 
 .img_two p {
     font-size: 14px;
     margin-top: 8px;
+    color: #717171;
 }
 
 .img_three {
@@ -104,11 +107,13 @@
 .img_three h3 {
     font-size: 28px;
     margin-top: 16px;
+    color: #4D4D4D;
 }
 
 .img_three p {
     font-size: 14px;
     margin-top: 8px;
+    color: #717171;
 }
 
 .img_three img {
@@ -118,35 +123,82 @@
     margin-left: 120px;
 }
 
+.imgs {
+    box-shadow: 0px 5px 20px 6px #adadad87;
+}
+
 #container_three {
-    border: 4px solid yellow;
     display: flex;
     margin-top: 42px;
 }
 
-.img {
-    border: 4px solid red;
-    width: 1500px;
+.img_de_cadastro {
+    width: 600px;
     height: 433px;
 }
 
-.img img {
+.img_de_cadastro img {
     width: 400px;
     height: 328.99px;
     margin-left: 165px;
     margin-top: 52px;
-    border: 4px solid red;
 }
 
 .textos {
-    border: 4px solid black;
+    margin-left: 100px;
 }
 
 .textos h2 {
     font-size: 36px;
     font-weight: 600;
+    margin-top: 65px;
+    color: #4D4D4D;
 }
 
 .textos p {
-    
+    margin-top: 20px;
+    font-size: 14px;
+    color: #717171;
+
+}
+
+.btn {
+    margin-top: 30px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 52px;
+    width: 150px;
+    border: none;
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+}
+
+/*INÍCIO DA RESPONSIVIDADE*/
+@media (max-width: 1240px) {
+    .img_one {
+        border: 4px solid red;
+        left: -100px;
+    }
+
+    .img_three {
+        border: 4px solid green;
+        left: 110px;
+    }
+
+    .img_de_cadastro img {
+        border: 4px solid red;
+        margin-left: 10px;
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 1040px ) {
+    .imgs_container{
+        border: solid blue;
+        position:relative;
+        left: -20px;
+    }
 }
