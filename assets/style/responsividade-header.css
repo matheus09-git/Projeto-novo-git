@@ -1,0 +1,116 @@
+/* Responsividade */
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 15px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .hero .content {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .illustration {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .clients .logos {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .clients .logos img {
+        max-width: 80px;
+    }
+
+    header .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav ul {
+        display: block;
+        margin-top: 20px;
+    }
+
+    header nav ul li {
+        margin-bottom: 10px;
+    }
+
+    header .register-btn {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    header .logo {
+        font-size: 20px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .clients h2 {
+        font-size: 22px;
+    }
+
+    .manage h2 {
+        font-size: 20px;
+    }
+
+    .register-btn {
+        padding: 8px 16px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .clients h2 {
+        font-size: 20px;
+    }
+
+    .clients .logos img {
+        max-width: 70px;
+    }
+
+    .manage h2 {
+        font-size: 18px;
+    }
+
+    header nav ul {
+        display: block;
+        gap: 10px;
+    }
+
+    .register-btn {
+        padding: 6px 12px;
+    }
+
+    .btn {
+        padding: 6px 12px;
+    }
+}

@@ -1,5 +1,5 @@
 #learn_more{
-    margin-top: 5%;
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
  
@@ -11,7 +11,7 @@
 }
 
 .learn_more_paragrafo{
-    width: 70%;
+    width: 100%;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -26,10 +26,24 @@
     font-size: 1.3rem;
 }
 
+.learn_image{
+    height: 40%;
+}
+
 .div-sessao_images{
-    display: flex;
-    margin-top: 30px;
-    gap: 100px;
+    opacity: 0.5;
+
+}
+
+.div-sessao_images:hover{
+    transition: 0.9s;
+    opacity: 1;
+}
+
+.learn_image img{
+    margin-top: -0.5%;
+    width: 50%px;
+    height: 390px;
 }
 
 .btn_customize{
@@ -38,7 +52,7 @@
     font-weight: bold;
     text-decoration: none;
     display: flex;
-    margin-top: 10px;
     border: none;
     cursor: pointer;
+    width: 300px;
 }

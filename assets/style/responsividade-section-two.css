@@ -1,0 +1,200 @@
+@media(max-width: 853px) {
+    #learn_more {
+        width: 100%;
+        display: flex;
+        margin-top: 400px;
+
+    }
+
+    .section_tow_principal {
+        
+        width: 100%;
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        height: 40vh;
+    }
+
+    .div_images {
+        margin-top: 100px;
+        width: 70%;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .imagem h1 {
+        font-size: 1.7rem;
+        margin-bottom: 15px;
+    }
+
+    .imagem p {
+        font-size: 1.2rem;
+    }
+
+    .image_div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .div_sessao_textos {
+        width: 95%;
+    }
+
+    .btn_div_sessao {
+        width: 30%;
+    }
+
+    #learn_more{
+        width: 100%;
+        display: flex;
+        margin-top: 400px;
+    }
+
+}
+
+@media(max-width: 430px) {
+    #section_tow {
+        width: 100%;
+        font-family: "Inter", sans-serif;
+        color: #4D4D4D;
+        margin-top: 80px;
+    }
+
+    .section_tow_principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 40vh;
+    }
+
+    .div_textos {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .div_textos h1 {
+        font-size: 2.0rem;
+    }
+
+    .div_textos h2 {
+        font-size: 1.5rem;
+    }
+
+    .div_images {
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .imagem {
+        margin-top: 20px;
+        height: 90px;
+        width: 15%;
+    }
+
+    .imagem h1 {
+        font-size: 1.7rem;
+    }
+
+    .imagem p {
+        font-size: 1.2rem;
+    }
+
+    #div_sessao {
+        width: 90%;
+        height: 30vh;
+        margin-top: 40%;
+
+    }
+
+    .div_sessao_principal {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image_div {
+        height: 60%;
+    }
+
+    .div_sessao_textos {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .div_sessao_textos h1 {
+        font-size: 2.3rem
+    }
+
+    .div_sessao_textos p {
+        font-size: 1.3rem;
+    }
+
+    #learn_more{
+        width: 100%;
+        margin-top: 50%;
+        display: flex;
+        margin-top: 900px;
+     
+    }
+    
+    .learn_principal{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .learn_more_paragrafo{
+        width: 70%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .learn_more_paragrafo h1{
+        margin-top: 50px;
+    }
+    
+    .learn_more_paragrafo p{
+        font-size: 1.2rem;
+    }
+
+    .itens_learn{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .div-sessao_images{
+        width: 150%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    
+    .div-sessao_images img{
+        width: 40px;
+    }
+
+    .btn_customize{
+        color: #4CAF4F;
+        font-size: 1.2em;
+        font-weight: bold;
+        text-decoration: none;
+        display: flex;
+        margin-top: 10px;
+        border: none;
+        cursor: pointer;
+    }
+
+
+}

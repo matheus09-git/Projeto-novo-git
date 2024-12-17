@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    display: grid;
+    max-width: 100%;
+}
+
+
+.conteiner-rodapé-geral {
+
+    display: inline-block;
+    align-items: end;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    width: 100%;
+}
+
+.conteiner-rodapé-geral h1{
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner-pré-rodapé {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    margin-top: 4%;
+}
+
+.conteiner-rodapé-geral .conteiner-pré-rodapé .btn{
+    
+    display: grid;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.conteiner-rodapé-geral .conteiner-pré-rodapé button{
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(0, 159, 0);
+    width: 150px;
+    height: 50px;
+    color: #bdbdbd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.btn-footer{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-footer span:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+
+.Rodapé {
+    display: flex;
+    background-color: rgb(36, 36, 36);
+    height: 300px;
+}
+
+.lado-esquerdo {
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+    margin-top: 44.55px;
+    margin-bottom: 52.48px;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.Rodapé .lado-esquerdo .logo {
+    display: flex;
+}
+
+.Rodapé .lado-esquerdo .logo h2 {
+    color: #fff;
+    margin-left: 1%;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.Rodapé .lado-esquerdo .logo img {
+
+    width: 30.12px;
+    height: 20.75px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.Rodapé .lado-esquerdo .Copyright {
+    color: #fff;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.Rodapé .lado-esquerdo .redes-sociais {
+
+    display: flex;
+    gap: 10px;
+}
+
+.Rodapé .lado-esquerdo .redes-sociais .Icons-RS {
+
+    width: 30px;
+}
+
+.Rodapé .lado-esquerdo .redes-sociais .Icons-RS img {
+    width: 100%;
+    height: 100%;
+}
+
+.lado-direito {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44.55px;
+    margin-bottom: 44.55px;
+    margin-left: auto;
+    margin-right: 12%;
+    width: 40%;
+    color: #fff;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.lado-direito .sessões h3 {
+    cursor: pointer;
+    font-weight: 600;
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
+
+.lado-direito .sessões p {
+    cursor: pointer;
+    font-weight: 350;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.lado-direito .sessão1 {
+
+    width: 25%;
+}
+
+.lado-direito .sessão2 {
+
+    width: 25%;
+}
+
+.input-email {
+    display: flex;
+    width: 250px;
+    height: 28px;
+}
+
+.input-email input{    
+    color: #fff;
+    outline:none;
+    font-weight: 550;
+}
+
+
+.input-email ::placeholder {
+    width: 75%;
+    color: #d3d3d3;
+}
+
+
+.input-email .send {
+    margin-left: -12%;
+    margin-top: 12%;
+    width: 12.53px;
+    height: 12.53px;
+    cursor: pointer;
+}
+
+.input-email input {
+    background-color: rgb(83, 83, 83);
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 7px;
+    margin-top: 16.70px;
+    padding-left: 10px;
+}

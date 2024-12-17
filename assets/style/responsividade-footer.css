@@ -1,0 +1,145 @@
+@media (max-width: 1200px){
+    .lado-direito{
+        width: 50%;
+        
+    }
+
+    .lado-esquerdo{
+        width: 25%;
+       
+    }
+
+    .conteiner-pré-rodapé h1{
+        font-size: 3rem;
+    }
+
+}
+
+@media (max-width: 1024px){
+    
+    .lado-direito .sessões{
+        width: 120px;
+    }
+    .lado-direito .sessão3{
+        width: 200px;
+    }
+    .input-email input{
+        width: 70%;
+    }
+}
+
+@media (max-width: 940px){
+    
+    .conteiner-pré-rodapé{
+        display: flex;
+        border: solid;
+        margin-top: auto;
+    }
+    .Rodapé{
+       
+    }
+
+    .lado-direito .sessões{
+        font-size: 11.5px;
+    }
+    
+    .input-email input{
+        width: 70%;
+        height: 30px;
+        font-size: 10px;
+    }
+    .input-email .send{
+        margin-top: 10.5%;
+    }
+
+    .lado-direito .sessões p{
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 800px){
+    
+    .conteiner-rodapé-geral{
+    }
+
+    .lado-esquerdo{
+        border: solid red;
+        margin-left: auto;
+    }
+
+}
+
+@media (max-width: 720px){
+    .conteiner-rodapé-geral{
+        display: grid;
+    }
+
+    .lado-direito{
+        
+        margin-right: auto;
+    }
+
+    .lado-direito .sessões{
+        border: solid;
+    }
+
+    .lado-direito .sessão3{
+        width: 40%;
+    }
+
+    .input-email input{
+        width: 50%;
+        font-size: 10px;
+    }
+    .input-email input::placeholder{
+        
+    }
+
+    .input-email .send{
+        margin-left: -18px;
+    }
+
+}
+
+@media (max-width: 600px){
+    .conteiner-rodapé-geral{
+        display: block;
+    }
+    .conteiner-pré-rodapé h1{
+        border: solid;
+        font-size: 2.25rem;
+    }
+
+    .conteiner-rodapé-geral .conteiner-pré-rodapé button{
+        width: 120px;
+        height: 40px;
+    }
+
+    .conteiner-pré-rodapé{
+        border: solid blue;
+        height: 30%;
+        margin-bottom: auto;
+        justify-content: center;
+    }
+
+    .Rodapé{
+        border: solid red;
+        display: flex;
+        flex-direction: column;
+        height: 70%;
+    }
+
+    .lado-direito {
+        width: 90%;
+        justify-content: start;
+    }
+
+    .lado-esquerdo{
+        border: solid red;
+        margin-left: 5%;
+    }
+
+    .lado-direito .sessão3{
+        width: 40%;
+    }
+}
